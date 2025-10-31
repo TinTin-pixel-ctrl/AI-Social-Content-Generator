@@ -1,3 +1,12 @@
+# Dependency folders
+node_modules
+dist
+dist-ssr
+
+# Local environment and machine-specific files
+*.local       # Ignore all files with .local extension (e.g., config.local)
+.env.local    # (Optional) Explicitly ignore environment variable overrides
+
 # Logs
 logs
 *.log
@@ -6,11 +15,6 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
-
-node_modules
-dist
-dist-ssr
-*.local
 
 # Editor directories and files
 .vscode/*
